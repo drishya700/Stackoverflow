@@ -1,0 +1,104 @@
+#product{
+    width: 2rem;
+}
+#follow-dropdown .dropdown-item:hover {
+    color: white;
+    background-color: orange;
+}
+#logo-main {
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem; 
+    margin-inline-start: 25rem; 
+}
+h1 {
+    font-family: "Roboto Slab";
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size:xx-large;
+}
+.middle {
+    width: 60%;
+    margin: 10rem auto;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 5rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(254, 250, 245);
+}
+.card-items {
+    padding: 30px;
+    border-right: ridge 3px;
+    border-radius: 2px;
+}
+.card-items h3{
+    font-weight: 700;
+}
+marquee img {
+    width: 20em;
+    height: 6em;
+    padding: 25px 0 25px 10px;
+    animation-duration: 80s;
+    animation-iteration-count: infinite;
+}
+.first-box {
+    display: flex;
+    margin: 7em 2em 7em 3em;
+    color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+}
+.fb-left {
+    text-align: left;
+    width: 50%;
+    vertical-align:middle;
+}
+.four-cards { 
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: static;
+    height: 20em;
+    margin-bottom: 3em;
+}
+.four-cards i{
+    font-size: 8em;
+    text-align: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.card-text {
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+.fa:hover {
+    color: orange;
+}
+footer{
+    background-color: #3b4045;
+    height: 20em;
+}
+.footer-list {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 5em;
+    color: white;
+}
+.footer-list li{
+    list-style: none;
+}
+.footer-list a{
+    color: grey;
+}
+.footer-list a:hover{
+    color: white;
+}
